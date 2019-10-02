@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAOA,UACE,cAAe,CACf,wBAAiB,CAAjB,qBAAiB,CAAjB,oBAAiB,CAAjB,gBAAiB,CACjB,gBAAa,CAAb,YAAa","file":"styles.css","sourcesContent":["body {\r\n  background: red;\r\n  user-select: none;\r\n  display: grid;\r\n}\r\n\r\n\r\n.div {\r\n  background: red;\r\n  user-select: none;\r\n  display: grid;\r\n}\r\n"]}

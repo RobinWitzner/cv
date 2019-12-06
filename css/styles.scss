@@ -44,8 +44,6 @@ section{
   width: 100%;
 }
 
-/*##### HERO SECTION #####*/
-
 .hero{
   height: 100%;
   background: url('../img/bg-masthead.jpg');
@@ -83,10 +81,9 @@ section{
   }
 }
 
-/*##### ABOUT MYSELF SECTION #####*/
-
 .about-myself{
   padding: 50px 20px;
+
 
   .content{
     text-align: center;
@@ -116,8 +113,6 @@ section{
     }
   }
 }
-
-/*##### EXPERIENCE SECTION #####*/
 
 .experience{
   background: url('../img/bg-signup.jpg');
@@ -215,7 +210,6 @@ section{
   }
 }
 
-/*##### SKILLS SECTION #####*/
 
 .skills{
   padding: 70px 20px;
@@ -309,32 +303,31 @@ section{
 }
 
 
-/*##### PORTFOLIO SECTION #####*/
 
-.portfolio{
+.portfolio {
   background: url('../img/bg-signup.jpg');
   background-size: cover;
 
-  .content{
+  .content {
     text-align: center;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     height: 100%;
 
-    h1{
+    h1 {
       color: white;
       font-size: 2em;
       margin-bottom: 50px;
     }
 
-    h2{
+    h2 {
       color: white;
     }
 
 
-    .projects{
+    .projects {
       width: 100%;
 
-      .project{
+      .project {
         color: #fff;
         position: relative;
         width: 80%;
@@ -343,26 +336,27 @@ section{
         margin-bottom: 10%;
         overflow: hidden;
 
-        &:last-child{
+        &:last-child {
           margin-bottom: 0;
         }
 
-        .project-image img{
+        .project-image img {
           width: 100%;
 
-        .project-title{
-          color: $title-color;
-          padding: 10px 0;
-        }
-        .project-description{
-          color: $text-color;
+          .project-title {
+            color: $title-color;
+            padding: 10px 0;
+          }
+
+          .project-description {
+            color: $text-color;
+          }
         }
       }
     }
   }
 }
 
-/*##### CONTACT SECTION #####*/
 
 .contact{
   padding: 30px 0;
@@ -411,9 +405,6 @@ section{
 
 
 
-/* ############################
-        RESPONSIVE
-############################### */
 
 @media screen and (min-width: 480px) {
   .skills .content{
@@ -440,7 +431,7 @@ section{
 @media screen and (min-width: 640px) {
 
   .about-myself{
-    padding: 100px 40px;
+    padding: 100px 200px;
   }
 
   .skills{

@@ -5,8 +5,6 @@ $( document ).ready(function() {
     var developmentIsVisible = false;
 
 
-    /* ####### HERO SECTION ####### */
-
     $('.hero .content .header').delay(800).animate({
         'opacity':'1',
         'top': '50%'
@@ -17,18 +15,13 @@ $( document ).ready(function() {
 
         var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-        /* ##### ABOUT MYSELF SECTION #### */
         if( bottom_of_window > ($aboutTitle.offset().top + $aboutTitle.outerHeight())){
             $('.about-myself .content h2').addClass('aboutTitleVisible');
         }
-        /* ##### EXPERIENCE SECTION #### */
-
-        // Check the location of each element hidden */
         $('.experience .content .hidden').each( function(i){
 
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
 
-            /* If the object is completely visible in the window, fadeIn it */
             if( bottom_of_window > bottom_of_object ){
 
                 $(this).animate({
@@ -37,8 +30,6 @@ $( document ).ready(function() {
                 },600);
             }
         });
-
-        /*###### SKILLS SECTION ######*/
 
         var middle_of_developmentWrapper = $developmentWrapper.offset().top + $developmentWrapper.outerHeight()/2;
 
@@ -66,5 +57,5 @@ $( document ).ready(function() {
             });
             developmentIsVisible = true;
         }
-    }); // -- End window scroll --
+    });
 });
